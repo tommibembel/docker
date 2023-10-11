@@ -13,7 +13,7 @@ services:
       - ./config:/etc/traefik
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
-      - CF_DNS_API_TOKEN=TBhjgRynrc_n6DlQDqRzYNpjBd6Erq9DAQMIDBOm
+      - CF_DNS_API_TOKEN=Token
     networks:
       - nm-traefik
     restart: unless-stopped
